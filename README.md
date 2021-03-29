@@ -39,12 +39,28 @@ Link:
 https://www.udemy.com/course/pytorch-for-deep-learning-with-python-bootcamp/
 
 
-### Autoencoder implementation in Linear way
+### Autoencoder implementation in Linear way & in Convoluted way
 I have attached a question paper here. And on the basis of this, I have developed a model for retain the provided architecture:
 
 ![](images/Question1.jfif)
 
-I have tried to develop autoencoder on MNIST Dataset.
+I have tried to develop autoencoder on MNIST Dataset. For both way, I have followed the same approach. Both differs only in architecture of the model.
 
 Steps:
 1. Attaching Libraries
+2. Collecting MNIST Dataset
+3. 64 Batchsize data is separated from the dataset in dataloader where shuffle is false.
+4. Go through to each data item of dataloader; here data item refers to images and labels; Normalized value
+5. Model class with given architecture
+6. get summary of model
+7. Calculate MSE loss and Apply Adam optimizer
+8. run the model for 20 epochs;
+9. Get the results after the epoch at 0th, 4th, 8th and 16th. Compare them with the original data.
+
+Link:
+https://www.youtube.com/watch?v=zp8clK9yCro&t=184s
+
+For more understanding and details, You can look over the code itself.
+
+
+
