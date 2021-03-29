@@ -33,3 +33,7 @@ Steps:
 12. plot between Loss and Epochs
 13. Current values for weight and bias after 50 epochs
 14. At the last epoch, the status of best fit line
+
+
+Link: 
+https://www.udemy.com/course/pytorch-for-deep-learning-with-python-bootcamp/
