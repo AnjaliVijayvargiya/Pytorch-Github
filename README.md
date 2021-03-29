@@ -4,7 +4,7 @@ I have created a single repository here for the pytorch codes.
 Here, is a list (is better to follow the series approach).
 1. Pytorch Gradient:
 2. Pytorch Linear Regression on simple generated data with linspace
-3. Autoencoder implementation in linear way
+3. Autoencoder implementation in Linear way
 4. Autoencoder implementation in Convoluted way
 
 
@@ -37,3 +37,14 @@ Steps:
 
 Link: 
 https://www.udemy.com/course/pytorch-for-deep-learning-with-python-bootcamp/
+
+
+### Autoencoder implementation in Linear way
+I have attached a question paper here. And on the basis of this, I have developed a model for retain the provided architecture:
+
+![](images/Question1.jfif)
+
+I have tried to develop autoencoder on MNIST Dataset.
+
+Steps:
+1. Attaching Libraries
